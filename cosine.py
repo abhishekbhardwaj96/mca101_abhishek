@@ -8,12 +8,12 @@ def sine(x):
     '''
     #approach : use the series 1-(x^2/2!) + (x^4/4!) ------
 
-    epsilon=0.00001
+    delta=0.00001
     term=1
     mulBy=-x*x
     result=1
     nextTerm=1
-    while( abs(term)>epsilon):
+    while( abs(term)>delta):
         divBy=(nextTerm)*(nextTerm+1)
         term*= mulBy/divBy
         result+=term
