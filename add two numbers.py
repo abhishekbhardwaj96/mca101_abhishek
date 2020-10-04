@@ -17,7 +17,7 @@ def add(num1,num2):
           return value : sum of two number
     '''
     # approach : sum of two number by increment function
-    assert num1 >= 0 and num2 >= 0
+    assert num2 >= 0
     if num2 == 0:
        return num1
     else:
