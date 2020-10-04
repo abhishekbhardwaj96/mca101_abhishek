@@ -5,6 +5,6 @@ def increment(number):
             number : number to be incremented
      return value : number as incremented by 1
      '''
-    number = number+1
+    number +=1
     return number
 
